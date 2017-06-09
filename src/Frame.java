@@ -49,12 +49,4 @@ public class Frame {
 	public void setFrameScore(int frameScore) {
 		this.frameScore = frameScore;
 	}
-
-	public void setFirstThrow(int firstThrow) {
-		this.firstThrow = firstThrow;
-	}
-
-	public void setSecondThrow(int secondThrow) {
-		this.secondThrow = secondThrow;
-	}
 }
