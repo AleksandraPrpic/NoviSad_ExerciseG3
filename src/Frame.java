@@ -1,6 +1,7 @@
 public class Frame {
 	private int firstThrow;
 	private int secondThrow;
+	private int frameScore = 0;
 	
 	public Frame(int firstThrow, int secondThrow){
 		this.firstThrow = firstThrow;
@@ -16,9 +17,13 @@ public class Frame {
 	}
 
 	//returns the score of a single frame
-	public int score(){
-		//to be implemented
-		return 0;
+	public int score() throws BowlingException{
+		frameScore = firstThrow + secondThrow;
+		if (frameScore > 10) {
+			throw new BowlingException("Error. Score can not be more than 10 for one frame.");
+		}
+		
+		return frameScore;
 	}
 
 	//returns whether the frame is a strike or not
