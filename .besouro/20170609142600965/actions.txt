@@ -127,3 +127,12 @@ RefactoringAction 1497013120648 BowlingGame.java ADD int totalScore FIELD
 RefactoringAction 1497013139304 Frame.java ADD int getFrameScore() METHOD
 RefactoringAction 1497013139306 Frame.java ADD void setFrameScore(int) METHOD
 EditAction 1497013142037 Frame.java 1097 8 13 0
+RefactoringAction 1497013162485 TestBowling.java ADD void testIfLast FIELD
+RefactoringAction 1497013167996 TestBowling.java RENAME testIfLast=>void testScore FIELD
+RefactoringAction 1497013169507 TestBowling.java RENAME testScore=>void testScoreIf FIELD
+RefactoringAction 1497013171517 TestBowling.java RENAME testScoreIf=>void testScoreWhen FIELD
+RefactoringAction 1497013179030 TestBowling.java RENAME testScoreWhen=>void testScoreWhenLastFrameIsStrike() METHOD
+RefactoringAction 1497013188570 TestBowling.java ADD void test FIELD
+RefactoringAction 1497013192581 TestBowling.java RENAME test=>void testScoreWhenLast FIELD
+RefactoringAction 1497013197091 TestBowling.java RENAME testScoreWhenLast=>void testScoreWhenLastFrameIsSpare() METHOD
+EditAction 1497013442826 TestBowling.java 2296 12 33 10
