@@ -85,7 +85,7 @@ public class TestBowling {
 			bg.addFrame(new Frame(2,3));
 		}
 		bg.addFrame(new Frame(10,0));
-		bg.setBonus(2, 3);
+		bg.setBonus(2,3);
 		assertEquals(60, bg.score());
 	}
 	
@@ -96,7 +96,7 @@ public class TestBowling {
 			bg.addFrame(new Frame(2,3));
 		}
 		bg.addFrame(new Frame(5,5));
-		bg.setBonus(2, 3);
+		bg.setBonus(2,3);
 		assertEquals(57, bg.score());
 	}
 	
