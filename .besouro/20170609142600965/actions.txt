@@ -22,3 +22,15 @@ EditAction 1497011369584 TestBowling.java 250 1 2 1
 FileOpenedAction 1497011378538 Frame.java 671 6 7 0
 RefactoringAction 1497011410634 Frame.java ADD int frameScore FIELD
 EditAction 1497011523601 Frame.java 875 6 9 0
+CompilationAction 1497011525105 TestBowling.java
+CompilationAction 1497011540030 TestBowling.java
+UnitTestCaseAction 1497011567072 TestBowling.java OK
+UnitTestSessionAction 1497011567075 TestBowling.java OK
+UnitTestCaseAction 1497011567282 TestBowling.java OK
+UnitTestSessionAction 1497011567284 TestBowling.java OK
+RefactoringAction 1497011605263 TestBowling.java ADD void testIfScoreFor FIELD
+RefactoringAction 1497011610776 TestBowling.java RENAME testIfScoreFor=>void testIfScoreForOneFrameIsMoreThan10 FIELD
+RefactoringAction 1497011612786 TestBowling.java RENAME testIfScoreForOneFrameIsMoreThan10=>void testIfScoreForOneFrameIsMoreThan10() METHOD
+RefactoringAction 1497011627328 TestBowling.java RENAME testIfFrameIsProperlyInitialized()=>void testIfScoreForOneFrameIsMoreThan10()/2 METHOD
+RefactoringAction 1497011631339 TestBowling.java RENAME testIfScoreForOneFrameIsMoreThan10()/2=>void testIfScoreForOneFrameIsLessThan10() METHOD
+EditAction 1497011657606 TestBowling.java 425 2 3 1
