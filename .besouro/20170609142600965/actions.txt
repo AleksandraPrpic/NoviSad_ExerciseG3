@@ -74,3 +74,17 @@ EditAction 1497012087021 TestBowling.java 969 7 13 5
 UnitTestCaseAction 1497012089816 TestBowling.java FAIL
 UnitTestSessionAction 1497012089818 TestBowling.java FAIL
 EditAction 1497012114879 TestBowling.java 969 7 13 5
+RefactoringAction 1497012208770 TestBowling.java REMOVE testIsFrameIsProperlyAdded() METHOD
+RefactoringAction 1497012216303 TestBowling.java ADD void testIsFrameIsProperlyAdded() METHOD
+RefactoringAction 1497012305507 TestBowling.java ADD void T FIELD
+RefactoringAction 1497012308531 TestBowling.java RENAME T=>void testIf FIELD
+RefactoringAction 1497012320054 TestBowling.java RENAME testIf=>void testIfFramesAreAddedException FIELD
+RefactoringAction 1497012362699 TestBowling.java RENAME testIsFrameIsProperlyAdded()=>void testIsLesAdded() METHOD
+RefactoringAction 1497012364213 TestBowling.java RENAME testIsLesAdded()=>void testIsLessTAdded() METHOD
+RefactoringAction 1497012365222 TestBowling.java RENAME testIsLessTAdded()=>void testIsLessThanAdded() METHOD
+RefactoringAction 1497012369734 TestBowling.java RENAME testIsLessThanAdded()=>void testIsLessThan10FrameAdded() METHOD
+RefactoringAction 1497012371744 TestBowling.java RENAME testIsLessThan10FrameAdded()=>void testIsLessThan10FramesAreAdded() METHOD
+RefactoringAction 1497012375757 TestBowling.java REMOVE testIfFramesAreAddedException FIELD
+RefactoringAction 1497012411108 BowlingGame.java ADD List<Frame> getFrames() METHOD
+RefactoringAction 1497012411112 BowlingGame.java ADD void setFrames(List<Frame>) METHOD
+EditAction 1497012412867 BowlingGame.java 849 6 3 0
