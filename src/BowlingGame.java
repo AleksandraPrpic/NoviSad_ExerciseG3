@@ -38,7 +38,7 @@ public class BowlingGame {
 					frames.get(i-1).setFrameScore(frames.get(i-1).score() + frames.get(i).getFirstThrow());
 				}
 			}
-			totalScore += frames.get(i+1).score();
+			totalScore += frames.get(i).score();
 		}
 		
 		if (bonus != null) {
