@@ -109,3 +109,17 @@ EditAction 1497012814959 TestBowling.java 1552 9 20 7
 UnitTestCaseAction 1497012818353 TestBowling.java OK
 UnitTestSessionAction 1497012818355 TestBowling.java OK
 EditAction 1497012849987 TestBowling.java 1563 9 20 7
+CompilationAction 1497012851471 TestBowling.java
+CompilationAction 1497012851473 TestBowling.java
+RefactoringAction 1497012870885 TestBowling.java ADD void test FIELD
+RefactoringAction 1497012871896 TestBowling.java RENAME test=>void testIf FIELD
+RefactoringAction 1497012877916 TestBowling.java RENAME testIf=>void testIfG FIELD
+RefactoringAction 1497012880429 TestBowling.java RENAME testIfG=>void testGame FIELD
+RefactoringAction 1497012881938 TestBowling.java RENAME testGame=>void testGameScore FIELD
+RefactoringAction 1497012882946 TestBowling.java RENAME testGameScore=>void testGameScore() METHOD
+RefactoringAction 1497012906981 TestBowling.java RENAME testGameScore()=>void test() METHOD
+RefactoringAction 1497012908490 TestBowling.java RENAME test()=>void testIf() METHOD
+RefactoringAction 1497012912003 TestBowling.java RENAME testIf()=>void testIfBonusFrameIs() METHOD
+RefactoringAction 1497012914018 TestBowling.java RENAME testIfBonusFrameIs()=>void testIfBonusFrameIsAdded() METHOD
+RefactoringAction 1497012985214 TestBowling.java RENAME testIfBonusFrameIsAdded()=>void testGameScore() METHOD
+EditAction 1497013058696 TestBowling.java 1751 10 23 8

@@ -70,7 +70,13 @@ public class TestBowling {
 	}
 	
 	@Test
-	
+	public void testGameScore() throws BowlingException{
+		bg = new BowlingGame();
+		for (int i = 0; i < 10; i++) {
+			bg.addFrame(new Frame(2,3));
+		}
+		assertEquals(50, bg.score());
+	}
 	
 
 }
