@@ -16,6 +16,7 @@ public class TestBowling {
 	@Test(expected=BowlingException.class)
 	public void testIfScoreForOneFrameIsMoreThan10() throws BowlingException {
 		fr = new Frame(2,14);
+		fr.score();
 	}
 
 }
