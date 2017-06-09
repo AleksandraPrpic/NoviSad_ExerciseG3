@@ -60,3 +60,4 @@ RefactoringAction 1497011869496 TestBowling.java RENAME testIfFrameIs=>void test
 RefactoringAction 1497011872008 TestBowling.java RENAME testIfFrameIsNot=>void testIfFrameIsNotSpare FIELD
 RefactoringAction 1497011873019 TestBowling.java RENAME testIfFrameIsNotSpare=>void testIfFrameIsNotSpare() METHOD
 EditAction 1497011897372 TestBowling.java 873 6 12 5
+EditAction 1497011941612 Frame.java 953 6 11 0
