@@ -101,3 +101,8 @@ RefactoringAction 1497012661858 TestBowling.java RENAME testIfMore=>void testIf1
 RefactoringAction 1497012664869 TestBowling.java RENAME testIf10=>void testIf10FramesAre FIELD
 RefactoringAction 1497012667383 TestBowling.java RENAME testIf10FramesAre=>void testIf10FramesAreAdded() METHOD
 EditAction 1497012691154 TestBowling.java 1763 8 34 7
+UnitTestCaseAction 1497012694269 TestBowling.java OK
+UnitTestSessionAction 1497012694270 TestBowling.java OK
+RefactoringAction 1497012724006 TestBowling.java ADD void testIfMoreThan10FramesAreAdded FIELD
+RefactoringAction 1497012726017 TestBowling.java RENAME testIfMoreThan10FramesAreAdded=>void testIfMoreThan10FramesAreAdded() METHOD
+EditAction 1497012814959 TestBowling.java 1552 9 20 7

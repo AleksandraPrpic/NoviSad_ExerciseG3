@@ -46,31 +46,27 @@ public class TestBowling {
 	@Test
 	public void testIsLessThan10FramesAreAdded() throws BowlingException{
 		bg = new BowlingGame();
-		bg.addFrame(new Frame(2,3));
-		bg.addFrame(new Frame(4,5));
-		bg.addFrame(new Frame(2,3));
-		bg.addFrame(new Frame(4,5));
-		bg.addFrame(new Frame(2,3));
-		bg.addFrame(new Frame(4,5));
-		bg.addFrame(new Frame(2,3));
-		bg.addFrame(new Frame(4,5));
+		for (int i = 0; i < 8; i++) {
+			bg.addFrame(new Frame(2,3));
+		}
 		assertEquals(8, bg.getFrames().size());
 	}
 	
 	@Test
 	public void testIf10FramesAreAdded() throws BowlingException {
 		bg = new BowlingGame();
-		bg.addFrame(new Frame(2,3));
-		bg.addFrame(new Frame(4,5));
-		bg.addFrame(new Frame(2,3));
-		bg.addFrame(new Frame(4,5));
-		bg.addFrame(new Frame(2,3));
-		bg.addFrame(new Frame(4,5));
-		bg.addFrame(new Frame(2,3));
-		bg.addFrame(new Frame(4,5));
-		bg.addFrame(new Frame(2,3));
-		bg.addFrame(new Frame(4,5));
+		for (int i = 0; i < 10; i++) {
+			bg.addFrame(new Frame(2,3));
+		}
 		assertEquals(10, bg.getFrames().size());
+	}
+	
+	@Test(expected = BowlingException.class)
+	public void testIfMoreThan10FramesAreAdded() throws BowlingException {
+		bg = new BowlingGame();
+		for (int i = 0; i < 12; i++) {
+			bg.addFrame(new Frame(2,3));
+		}
 	}
 	
 	
