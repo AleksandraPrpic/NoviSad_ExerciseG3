@@ -29,20 +29,20 @@ public class BowlingGame {
 	}
 	
 	// Returns the game score
-	public int score() {
+	public int score() throws BowlingException{
 		for (int i = 0; i < frames.size(); i++) {
 			if (i != 0) {
 				if(frames.get(i-1).isStrike()) {
-					frames.get(i-1).setFrameScore(frames.get(i-1).getFrameScore() + frames.get(i).getFrameScore());
+					frames.get(i-1).setFrameScore(frames.get(i-1).score() + frames.get(i).score());
 				} else if (frames.get(i-1).isSpare()) {
-					frames.get(i-1).setFrameScore(frames.get(i-1).getFrameScore() + frames.get(i).getFirstThrow());
+					frames.get(i-1).setFrameScore(frames.get(i-1).score() + frames.get(i).getFirstThrow());
 				}
-				totalScore += frames.get(i).getFrameScore();
+				totalScore += frames.get(i).score();
 			}
 		}
 		if (bonus != null) {
 			if (frames.get(9).isStrike()) {
-				totalScore += bonus.getFrameScore();
+				totalScore += bonus.score();
 			} else if (frames.get(9).isSpare()) {
 				totalScore += bonus.getFirstThrow();
 			}
