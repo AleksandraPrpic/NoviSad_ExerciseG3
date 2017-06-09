@@ -92,3 +92,12 @@ CompilationAction 1497012414367 TestBowling.java
 CompilationAction 1497012484209 TestBowling.java
 EditAction 1497012572161 BowlingGame.java 977 6 5 0
 EditAction 1497012633462 TestBowling.java 1296 7 22 6
+UnitTestCaseAction 1497012636556 TestBowling.java OK
+UnitTestSessionAction 1497012636557 TestBowling.java OK
+RefactoringAction 1497012649323 TestBowling.java ADD void test FIELD
+RefactoringAction 1497012650833 TestBowling.java RENAME test=>void testIf FIELD
+RefactoringAction 1497012659349 TestBowling.java RENAME testIf=>void testIfMore FIELD
+RefactoringAction 1497012661858 TestBowling.java RENAME testIfMore=>void testIf10 FIELD
+RefactoringAction 1497012664869 TestBowling.java RENAME testIf10=>void testIf10FramesAre FIELD
+RefactoringAction 1497012667383 TestBowling.java RENAME testIf10FramesAre=>void testIf10FramesAreAdded() METHOD
+EditAction 1497012691154 TestBowling.java 1763 8 34 7

@@ -55,7 +55,22 @@ public class TestBowling {
 		bg.addFrame(new Frame(2,3));
 		bg.addFrame(new Frame(4,5));
 		assertEquals(8, bg.getFrames().size());
-		
+	}
+	
+	@Test
+	public void testIf10FramesAreAdded() throws BowlingException {
+		bg = new BowlingGame();
+		bg.addFrame(new Frame(2,3));
+		bg.addFrame(new Frame(4,5));
+		bg.addFrame(new Frame(2,3));
+		bg.addFrame(new Frame(4,5));
+		bg.addFrame(new Frame(2,3));
+		bg.addFrame(new Frame(4,5));
+		bg.addFrame(new Frame(2,3));
+		bg.addFrame(new Frame(4,5));
+		bg.addFrame(new Frame(2,3));
+		bg.addFrame(new Frame(4,5));
+		assertEquals(10, bg.getFrames().size());
 	}
 	
 	
