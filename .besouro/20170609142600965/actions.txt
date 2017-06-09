@@ -42,3 +42,4 @@ UnitTestSessionAction 1497011674348 TestBowling.java OK
 RefactoringAction 1497011685497 TestBowling.java ADD void testIf FIELD
 RefactoringAction 1497011690011 TestBowling.java RENAME testIf=>void testIfFrameIsStrike() METHOD
 EditAction 1497011727392 TestBowling.java 549 3 6 2
+EditAction 1497011755142 Frame.java 900 6 10 0
