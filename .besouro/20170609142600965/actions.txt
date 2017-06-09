@@ -37,3 +37,8 @@ EditAction 1497011657606 TestBowling.java 425 2 3 1
 UnitTestCaseAction 1497011661055 TestBowling.java FAIL
 UnitTestSessionAction 1497011661057 TestBowling.java FAIL
 EditAction 1497011671706 TestBowling.java 440 2 4 1
+UnitTestCaseAction 1497011674346 TestBowling.java OK
+UnitTestSessionAction 1497011674348 TestBowling.java OK
+RefactoringAction 1497011685497 TestBowling.java ADD void testIf FIELD
+RefactoringAction 1497011690011 TestBowling.java RENAME testIf=>void testIfFrameIsStrike() METHOD
+EditAction 1497011727392 TestBowling.java 549 3 6 2

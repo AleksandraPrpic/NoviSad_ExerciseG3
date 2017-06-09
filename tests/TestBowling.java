@@ -18,5 +18,11 @@ public class TestBowling {
 		fr = new Frame(2,14);
 		fr.score();
 	}
+	
+	@Test
+	public void testIfFrameIsStrike() {
+		fr = new Frame(10, 0);
+		assertTrue(fr.isStrike());
+	}
 
 }
