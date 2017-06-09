@@ -100,5 +100,21 @@ public class TestBowling {
 		assertEquals(57, bg.score());
 	}
 	
+	@Test
+	public void testWhenStrikeHappensInTheMiddleOfTheGame() throws BowlingException {
+		bg = new BowlingGame();
+		bg.addFrame(new Frame(2,3));
+		bg.addFrame(new Frame(2,3));
+		bg.addFrame(new Frame(2,3));
+		bg.addFrame(new Frame(2,3));
+		bg.addFrame(new Frame(10,0));
+		bg.addFrame(new Frame(2,3));
+		bg.addFrame(new Frame(2,3));
+		bg.addFrame(new Frame(2,3));
+		bg.addFrame(new Frame(2,3));
+		bg.addFrame(new Frame(2,3));
+		assertEquals(60, bg.score());
+	}
+	
 
 }

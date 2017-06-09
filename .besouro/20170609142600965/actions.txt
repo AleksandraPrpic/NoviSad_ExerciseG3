@@ -150,3 +150,10 @@ EditAction 1497014362460 BowlingGame.java 1596 6 8 0
 UnitTestCaseAction 1497014367941 TestBowling.java FAIL
 UnitTestSessionAction 1497014367941 TestBowling.java FAIL
 EditAction 1497014436410 BowlingGame.java 1595 6 8 0
+UnitTestCaseAction 1497014440306 TestBowling.java OK
+UnitTestSessionAction 1497014440306 TestBowling.java OK
+RefactoringAction 1497014469587 TestBowling.java ADD void test FIELD
+RefactoringAction 1497014471118 TestBowling.java RENAME test=>void testIf FIELD
+RefactoringAction 1497014483282 TestBowling.java RENAME testIf=>void testWhenStrikeHappensInTheMiddleOfThe FIELD
+RefactoringAction 1497014485329 TestBowling.java RENAME testWhenStrikeHappensInTheMiddleOfThe=>void testWhenStrikeHappensInTheMiddleOfTheGame() METHOD
+EditAction 1497014598861 TestBowling.java 2774 13 45 11
