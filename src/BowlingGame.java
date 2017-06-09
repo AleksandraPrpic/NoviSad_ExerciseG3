@@ -3,7 +3,7 @@ import java.util.List;
 
 // Before you commit and push write your student ID and finish time here.
 // Finish time:
-// Student ID:
+// Student ID:Aleksandra Prpic IT58/2015
 
 public class BowlingGame {
 	//a bowling game is made of (at least) 10 frames
@@ -25,8 +25,7 @@ public class BowlingGame {
 	
 	// Sets the bonus throws at the end of the game
 	public void setBonus(int firstThrow, int secondThrow) {
-		bonus.setFirstThrow(firstThrow);
-		bonus.setSecondThrow(secondThrow);
+		bonus = new Frame(firstThrow, secondThrow);
 	}
 	
 	// Returns the game score
