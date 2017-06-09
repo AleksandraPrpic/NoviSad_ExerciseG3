@@ -136,3 +136,4 @@ RefactoringAction 1497013188570 TestBowling.java ADD void test FIELD
 RefactoringAction 1497013192581 TestBowling.java RENAME test=>void testScoreWhenLast FIELD
 RefactoringAction 1497013197091 TestBowling.java RENAME testScoreWhenLast=>void testScoreWhenLastFrameIsSpare() METHOD
 EditAction 1497013442826 TestBowling.java 2296 12 33 10
+EditAction 1497014093253 BowlingGame.java 1613 6 8 0
