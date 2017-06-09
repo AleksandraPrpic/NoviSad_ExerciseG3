@@ -46,44 +46,78 @@ public class TestBowling {
 	@Test
 	public void testIsLessThan10FramesAreAdded() throws BowlingException{
 		bg = new BowlingGame();
-		for (int i = 0; i < 8; i++) {
-			bg.addFrame(new Frame(2,3));
-		}
+		bg.addFrame(new Frame(2,3));
+		bg.addFrame(new Frame(2,3));
+		bg.addFrame(new Frame(2,3));
+		bg.addFrame(new Frame(2,3));
+		bg.addFrame(new Frame(2,3));
+		bg.addFrame(new Frame(2,3));
+		bg.addFrame(new Frame(2,3));
+		bg.addFrame(new Frame(2,3));
 		assertEquals(8, bg.getFrames().size());
 	}
 	
 	@Test
 	public void testIf10FramesAreAdded() throws BowlingException {
 		bg = new BowlingGame();
-		for (int i = 0; i < 10; i++) {
-			bg.addFrame(new Frame(2,3));
-		}
+		bg.addFrame(new Frame(2,3));
+		bg.addFrame(new Frame(2,3));
+		bg.addFrame(new Frame(2,3));
+		bg.addFrame(new Frame(2,3));
+		bg.addFrame(new Frame(2,3));
+		bg.addFrame(new Frame(2,3));
+		bg.addFrame(new Frame(2,3));
+		bg.addFrame(new Frame(2,3));
+		bg.addFrame(new Frame(2,3));
+		bg.addFrame(new Frame(2,3));
 		assertEquals(10, bg.getFrames().size());
 	}
 	
 	@Test(expected = BowlingException.class)
 	public void testIfMoreThan10FramesAreAdded() throws BowlingException {
 		bg = new BowlingGame();
-		for (int i = 0; i < 12; i++) {
-			bg.addFrame(new Frame(2,3));
-		}
+		bg.addFrame(new Frame(2,3));
+		bg.addFrame(new Frame(2,3));
+		bg.addFrame(new Frame(2,3));
+		bg.addFrame(new Frame(2,3));
+		bg.addFrame(new Frame(2,3));
+		bg.addFrame(new Frame(2,3));
+		bg.addFrame(new Frame(2,3));
+		bg.addFrame(new Frame(2,3));
+		bg.addFrame(new Frame(2,3));
+		bg.addFrame(new Frame(2,3));
+		bg.addFrame(new Frame(2,3));
+		bg.addFrame(new Frame(2,3));
 	}
 	
 	@Test
 	public void testGameScore() throws BowlingException{
 		bg = new BowlingGame();
-		for (int i = 0; i < 10; i++) {
-			bg.addFrame(new Frame(2,3));
-		}
+		bg.addFrame(new Frame(2,3));
+		bg.addFrame(new Frame(2,3));
+		bg.addFrame(new Frame(2,3));
+		bg.addFrame(new Frame(2,3));
+		bg.addFrame(new Frame(2,3));
+		bg.addFrame(new Frame(2,3));
+		bg.addFrame(new Frame(2,3));
+		bg.addFrame(new Frame(2,3));
+		bg.addFrame(new Frame(2,3));
+		bg.addFrame(new Frame(2,3));
 		assertEquals(50, bg.score());
 	}
 	
 	@Test
 	public void testScoreWhenLastFrameIsStrike () throws BowlingException{
 		bg = new BowlingGame();
-		for (int i = 0; i < 9; i++) {
-			bg.addFrame(new Frame(2,3));
-		}
+		bg.addFrame(new Frame(2,3));
+		bg.addFrame(new Frame(2,3));
+		bg.addFrame(new Frame(2,3));
+		bg.addFrame(new Frame(2,3));
+		bg.addFrame(new Frame(2,3));
+		bg.addFrame(new Frame(2,3));
+		bg.addFrame(new Frame(2,3));
+		bg.addFrame(new Frame(2,3));
+		bg.addFrame(new Frame(2,3));
 		bg.addFrame(new Frame(10,0));
 		bg.setBonus(2,3);
 		assertEquals(60, bg.score());
@@ -92,9 +126,15 @@ public class TestBowling {
 	@Test
 	public void testScoreWhenLastFrameIsSpare() throws BowlingException{
 		bg = new BowlingGame();
-		for (int i = 0; i < 9; i++) {
-			bg.addFrame(new Frame(2,3));
-		}
+		bg.addFrame(new Frame(2,3));
+		bg.addFrame(new Frame(2,3));
+		bg.addFrame(new Frame(2,3));
+		bg.addFrame(new Frame(2,3));
+		bg.addFrame(new Frame(2,3));
+		bg.addFrame(new Frame(2,3));
+		bg.addFrame(new Frame(2,3));
+		bg.addFrame(new Frame(2,3));
+		bg.addFrame(new Frame(2,3));
 		bg.addFrame(new Frame(5,5));
 		bg.setBonus(2,3);
 		assertEquals(57, bg.score());

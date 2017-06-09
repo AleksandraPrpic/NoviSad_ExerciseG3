@@ -157,3 +157,6 @@ RefactoringAction 1497014471118 TestBowling.java RENAME test=>void testIf FIELD
 RefactoringAction 1497014483282 TestBowling.java RENAME testIf=>void testWhenStrikeHappensInTheMiddleOfThe FIELD
 RefactoringAction 1497014485329 TestBowling.java RENAME testWhenStrikeHappensInTheMiddleOfThe=>void testWhenStrikeHappensInTheMiddleOfTheGame() METHOD
 EditAction 1497014598861 TestBowling.java 2774 13 45 11
+UnitTestCaseAction 1497014602162 TestBowling.java FAIL
+UnitTestSessionAction 1497014602162 TestBowling.java FAIL
+EditAction 1497014832097 TestBowling.java 4201 13 97 11
