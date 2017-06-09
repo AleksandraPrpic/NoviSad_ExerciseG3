@@ -42,5 +42,11 @@ public class TestBowling {
 		fr = new Frame(2,3);
 		assertFalse(fr.isSpare());
 	}
+	
+	@Test
+	public void testIsFrameIsProperlyAdded() {
+		bg.addFrame(new Frame(2,3));
+		
+	}
 
 }
