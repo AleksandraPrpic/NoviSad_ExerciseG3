@@ -44,9 +44,20 @@ public class TestBowling {
 	}
 	
 	@Test
-	public void testIsFrameIsProperlyAdded() {
+	public void testIsLessThan10FramesAreAdded() throws BowlingException{
+		bg = new BowlingGame();
 		bg.addFrame(new Frame(2,3));
+		bg.addFrame(new Frame(4,5));
+		bg.addFrame(new Frame(2,3));
+		bg.addFrame(new Frame(4,5));
+		bg.addFrame(new Frame(2,3));
+		bg.addFrame(new Frame(4,5));
+		bg.addFrame(new Frame(2,3));
+		bg.addFrame(new Frame(4,5));
+		
 		
 	}
+	
+	
 
 }
