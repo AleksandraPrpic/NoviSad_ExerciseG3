@@ -123,3 +123,7 @@ RefactoringAction 1497012912003 TestBowling.java RENAME testIf()=>void testIfBon
 RefactoringAction 1497012914018 TestBowling.java RENAME testIfBonusFrameIs()=>void testIfBonusFrameIsAdded() METHOD
 RefactoringAction 1497012985214 TestBowling.java RENAME testIfBonusFrameIsAdded()=>void testGameScore() METHOD
 EditAction 1497013058696 TestBowling.java 1751 10 23 8
+RefactoringAction 1497013120648 BowlingGame.java ADD int totalScore FIELD
+RefactoringAction 1497013139304 Frame.java ADD int getFrameScore() METHOD
+RefactoringAction 1497013139306 Frame.java ADD void setFrameScore(int) METHOD
+EditAction 1497013142037 Frame.java 1097 8 13 0
