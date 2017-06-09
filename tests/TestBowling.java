@@ -4,9 +4,13 @@ import org.junit.Test;
 
 public class TestBowling {
 
+	Frame fr;
+	BowlingGame bg;
+	
 	@Test
-	public void test() {
-		fail("Not yet implemented");
+	public void testIfFrameIsProperlyInitialized() {
+		fr = new Frame(2,3);
+		assertEquals(5, fr.score());
 	}
 
 }
